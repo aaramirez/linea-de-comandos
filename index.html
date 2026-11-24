@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KX76XF8R');</script>
+<!-- End Google Tag Manager -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Línea de comandos y PowerShell</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="La terminal en Windows, macOS y Linux, de los primeros comandos a los scripts que automatizan el trabajo: rutas, archivos, búsquedas, tuberías, los objetos de PowerShell, permisos, procesos, la red y scripts de PowerShell y de Bash.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KX76XF8R"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="wrap" data-page="index">
+<header class="topbar"><a class="brand" href="index.html">Línea de <b>comandos</b></a><span class="eyebrow">Curso visual e interactivo · Computación</span><a class="al-sitio" href="https://aaramirez.github.io/">← Todos los cursos</a></header>
+<div class="layout">
+<nav class="toc" id="toc" aria-label="Ruta de aprendizaje"></nav>
+<main>
+
+<header class="hero">
+  <span class="eyebrow">Curso visual e interactivo · Computación</span>
+  <h1>La ventana negra deja de dar miedo cuando entiendes la conversación</h1>
+  <p class="lede">Detrás de cada clic hay un comando que también se puede escribir, y escrito se puede repetir, combinar y automatizar. Este curso enseña a conversar con el computador por la terminal en Windows, macOS y Linux: primero a moverse y buscar, después a encadenar comandos y al final a escribir scripts que hacen en segundos el trabajo de una tarde.</p>
+</header>
+
+<section>
+  <h2>Cómo usar este curso</h2>
+  <div class="prose">
+    <p><b>Estado.</b> El curso está en preparación. La <a href="temario.html">tabla de contenido</a> ya tiene los 14 capítulos con sus secciones y sus laboratorios, y está en revisión.</p>
+    <p><b>Para quién es.</b> Para cualquier profesional que usa un computador, sea de ventas, finanzas, atención o sistemas: no hace falta saber programar. Los primeros capítulos son para quien nunca abrió una terminal; los últimos llegan al nivel de un curso universitario (cómo interpreta el shell una línea, códigos de salida, señales, scripts robustos y con pruebas). La teoría de procesos y permisos está en Sistemas operativos; la de redes, en Redes de computadoras; Git a fondo, en DevOps.</p>
+    <p><b>Cómo está hecho.</b> Una misma carpeta de práctica recorre el curso: `oficina/`, que descargas en tu computador, con reportes de ventas en CSV, el registro de un servidor web de ejemplo y documentos con nombres desordenados. Capítulo a capítulo la exploras, la ordenas y la resumes, y al final un script en PowerShell y otro en Bash hacen el reporte del mes solos. Cada capítulo tiene una terminal simulada en la página para probar sin riesgo y prácticas en tu terminal con pestañas para Windows, macOS y Linux. Todas las prácticas son de solo lectura o trabajan solo dentro de `oficina/`.</p>
+  </div>
+</section>
+
+<details class="stage" id="temario" open><summary><h2><span class="pn">Empieza aquí</span> Tabla de contenido</h2></summary>
+  <div class="mods">
+    <a class="mod" href="temario.html"><span class="n">≡</span><b>Tabla de contenido</b><p>Cada capítulo con sus secciones y sus laboratorios.</p></a>
+  </div>
+</details>
+
+<details class="stage" id="parte-1" open><summary><h2><span class="pn">Parte 1</span> Primeros pasos</h2><span class="cuenta" data-etapa-cuenta="1"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="que-es-la-terminal"><span class="n">01</span><b>Qué es la terminal y por qué todavía se usa</b><p>Terminal, consola y shell; cmd, PowerShell, Bash y zsh; la anatomía de un comando y cómo pedir ayuda.</p></div>
+    <div class="mod soon" data-id="moverse-por-las-carpetas"><span class="n">02</span><b>Moverse por las carpetas: rutas absolutas y relativas</b><p>El árbol de archivos, dónde estás, cómo moverte y cómo escribir menos con el tabulador y el historial.</p></div>
+    <div class="mod soon" data-id="archivos-y-carpetas"><span class="n">03</span><b>Crear, copiar, mover y borrar</b><p>Las operaciones con archivos, los comodines y por qué en la terminal no hay papelera.</p></div>
+    <div class="mod soon" data-id="ver-y-buscar"><span class="n">04</span><b>Ver archivos y buscar dentro de ellos</b><p>Leer archivos grandes, encontrar archivos por nombre y encontrar texto dentro de ellos con expresiones regulares.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-2" open><summary><h2><span class="pn">Parte 2</span> Combinar comandos</h2><span class="cuenta" data-etapa-cuenta="2"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="tuberias-y-redireccion"><span class="n">05</span><b>Tuberías y redirección: comandos que se pasan el trabajo</b><p>Entrada, salida y error estándar, la tubería, la filosofía de Unix y los códigos de salida.</p></div>
+    <div class="mod soon" data-id="powershell-y-los-objetos"><span class="n">06</span><b>PowerShell piensa en objetos</b><p>Cmdlets con verbo y sustantivo, objetos con propiedades y una tubería que filtra, ordena y agrupa sin cortar texto.</p></div>
+    <div class="mod soon" data-id="procesar-texto"><span class="n">07</span><b>Procesar texto con las herramientas de Unix</b><p>`sort`, `uniq`, `cut`, `tr`, `sed`, `awk` y `jq`: un reporte completo en una línea.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-3" open><summary><h2><span class="pn">Parte 3</span> El sistema desde la terminal</h2><span class="cuenta" data-etapa-cuenta="3"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="usuarios-y-permisos"><span class="n">08</span><b>Usuarios, permisos y privilegios</b><p>Quién eres para el sistema, quién puede leer y escribir cada archivo y por qué no se trabaja como administrador.</p></div>
+    <div class="mod soon" data-id="procesos-y-servicios"><span class="n">09</span><b>Procesos, servicios y recursos</b><p>Ver qué corre en el equipo, cuánto consume, cómo se detiene un programa y qué servicios arrancan solos.</p></div>
+    <div class="mod soon" data-id="entorno-y-programas"><span class="n">10</span><b>El entorno, el PATH e instalar programas</b><p>Variables de entorno, cómo encuentra el shell un comando, los perfiles y los gestores de paquetes.</p></div>
+    <div class="mod soon" data-id="la-red-desde-la-terminal"><span class="n">11</span><b>La red desde la terminal</b><p>Tu dirección, si hay conexión, por dónde van los paquetes, qué dice el DNS y cómo pedir una página sin navegador.</p></div>
+  </div>
+</details>
+
+<details class="stage" id="parte-4" open><summary><h2><span class="pn">Parte 4</span> Automatizar</h2><span class="cuenta" data-etapa-cuenta="4"></span></summary>
+  <div class="mods">
+    <div class="mod soon" data-id="scripts-de-powershell"><span class="n">12</span><b>Scripts de PowerShell</b><p>Variables, decisiones, ciclos, funciones con parámetros, errores y el script que se ensaya antes de actuar.</p></div>
+    <div class="mod soon" data-id="scripts-de-bash"><span class="n">13</span><b>Scripts de Bash</b><p>El shebang, variables y comillas, condiciones, ciclos, funciones, argumentos y el orden en que Bash interpreta una línea.</p></div>
+    <div class="mod soon" data-id="scripts-robustos"><span class="n">14</span><b>Scripts robustos, probados y programados</b><p>Modo estricto, analizadores, pruebas, registros, idempotencia y tareas que corren solas; el proyecto final.</p></div>
+  </div>
+</details>
+
+
+
+<nav class="pager" id="pager" aria-label="Capítulo anterior y siguiente"></nav>
+</main>
+</div>
+<footer><span>Curso abierto de aaramirez.github.io.</span><span>Sitio publicado: <a href="https://github.com/aaramirez/linea-de-comandos" target="_blank" rel="noopener">github.com/aaramirez/linea-de-comandos</a></span></footer>
+</div>
+<script src="assets/lab.js"></script>
+</body>
+</html>
